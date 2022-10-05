@@ -10,3 +10,6 @@ colore = prompt("inserisci il tuo colore preferito");
 console.log(colore, typeof(colore));
 
 
+// ELABORAZIONE DATI
+password = (nome + cognome + "21")
+console.log(password, typeof(password));
