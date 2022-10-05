@@ -1,15 +1,19 @@
 // RACCOGLI DATI INPUT
     // ins nome
-nome = prompt("inserisci il tuo nome");
+let nome = prompt("inserisci il tuo nome");
 console.log(nome, typeof(nome));
     // ins cognome
-cognome = prompt("inserisci il tuo cognome");
+let cognome = prompt("inserisci il tuo cognome");
 console.log(cognome, typeof(cognome));
     // ins colore
-colore = prompt("inserisci il tuo colore preferito");
+let colore = prompt("inserisci il tuo colore preferito");
 console.log(colore, typeof(colore));
 
 
 // ELABORAZIONE DATI
-password = (nome + cognome + "21")
+let password = (nome + cognome + "21");
 console.log(password, typeof(password));
+
+
+// OUTPUT A SCHERMO
+document.getElementById(pass).innerHTML = password;
