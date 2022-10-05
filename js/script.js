@@ -20,7 +20,7 @@ while (colore == "") {
 
 
 // ELABORAZIONE DATI
-let password = (nome + cognome + "21");
+let password = (nome + cognome + colore + "21");
 console.log(password, typeof(password));
 
 
