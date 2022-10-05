@@ -16,4 +16,4 @@ console.log(password, typeof(password));
 
 
 // OUTPUT A SCHERMO
-document.getElementById(pass).innerHTML = password;
+document.getElementById("pass").innerHTML = password;
